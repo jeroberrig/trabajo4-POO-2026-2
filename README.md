@@ -9,10 +9,6 @@ Estudiante: Jerónimo Berrio García.
 Docente: Walter Hugo Arboleda Mazo.
 
 # Contenido de los ejercicios
-[Ejercicio 8.2 "NOTAS"](https://github.com/jeroberrig/trabajo3-POO-2026-2/tree/main/Ejericio%208.2%20Pag.%20483%20(notas))
-[Ejercicio 2.2"FIGURAS"](https://github.com/jeroberrig/trabajo3-POO-2026-2/tree/main/Ejercicio%208.3%20Pag%20495%20(Figuras%20geometricas))
-
-# Contenido de los ejercicios
 [Ejercicio 6.4 "EXCEPCIONES"](https://github.com/jeroberrig/trabajo4-POO-2026-2/tree/main/TRABAJO%204%20POO/EJERCICIO%206.4%20PAG%20400)
 [Ejercicio 6.5 "VENDEDOR"](https://github.com/jeroberrig/trabajo4-POO-2026-2/tree/main/TRABAJO%204%20POO/EJERCICIO%206.5%20PAG%20405)
 [Ejercicio 6.6 "CALCULARNUMEROS"](https://github.com/jeroberrig/trabajo4-POO-2026-2/tree/main/TRABAJO%204%20POO/EJERCICIO%206.6%20PAG%20412)
