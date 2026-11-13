@@ -13,4 +13,4 @@ Docente: Walter Hugo Arboleda Mazo.
 [Ejercicio 6.5 "VENDEDOR"](https://github.com/jeroberrig/trabajo4-POO-2026-2/tree/main/TRABAJO%204%20POO/EJERCICIO%206.5%20PAG%20405)
 [Ejercicio 6.6 "CALCULARNUMEROS"](https://github.com/jeroberrig/trabajo4-POO-2026-2/tree/main/TRABAJO%204%20POO/EJERCICIO%206.6%20PAG%20412)
 [Ejercicio 6.7 "EQUIPOPROGRAMACION"](https://github.com/jeroberrig/trabajo4-POO-2026-2/tree/main/TRABAJO%204%20POO/EJERCICIO%206.7%20PAG%20418)
-[Ejercicio 6.5 "LEERARCHIVOS"](https://github.com/jeroberrig/trabajo4-POO-2026-2/tree/main/TRABAJO%204%20POO/EJERCICIO%206.8%20PAG%20427)
+[Ejercicio 6.8 "LEERARCHIVOS"](https://github.com/jeroberrig/trabajo4-POO-2026-2/tree/main/TRABAJO%204%20POO/EJERCICIO%206.8%20PAG%20427)
