@@ -1,0 +1,501 @@
+{
+  "_type": "Project",
+  "_id": "7bc15b4bd99a401f9797ac==",
+  "name": "CalculosNumericos",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "392225a2395c478b9cc220==",
+      "_parent": {
+        "$ref": "7bc15b4bd99a401f9797ac=="
+      },
+      "name": "Model",
+      "ownedElements": [
+        {
+          "_type": "UMLPackage",
+          "_id": "d245a6b5d6694cdca9f11f==",
+          "_parent": {
+            "$ref": "392225a2395c478b9cc220=="
+          },
+          "name": "Excepciones",
+          "ownedElements": [
+            {
+              "_type": "UMLClass",
+              "_id": "96ea077d774046d6887b64==",
+              "_parent": {
+                "$ref": "d245a6b5d6694cdca9f11f=="
+              },
+              "name": "CalculosNumericos",
+              "visibility": "public",
+              "operations": [
+                {
+                  "_type": "UMLOperation",
+                  "_id": "ba1b99f46c53481f9121ac==",
+                  "_parent": {
+                    "$ref": "96ea077d774046d6887b64=="
+                  },
+                  "name": "calcular_logaritmo_neperiano",
+                  "visibility": "public",
+                  "isStatic": true,
+                  "parameters": [
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "e2c512a571224e0392ccbb==",
+                      "_parent": {
+                        "$ref": "ba1b99f46c53481f9121ac=="
+                      },
+                      "name": "valor_str",
+                      "type": "str",
+                      "direction": "in"
+                    },
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "9bc62e0cf70d44b6a7980c==",
+                      "_parent": {
+                        "$ref": "ba1b99f46c53481f9121ac=="
+                      },
+                      "type": "tuple[bool, str]",
+                      "direction": "return"
+                    }
+                  ]
+                },
+                {
+                  "_type": "UMLOperation",
+                  "_id": "0a3dc5df9bff47d890348c==",
+                  "_parent": {
+                    "$ref": "96ea077d774046d6887b64=="
+                  },
+                  "name": "calcular_raiz_cuadrada",
+                  "visibility": "public",
+                  "isStatic": true,
+                  "parameters": [
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "b56bdc36985f4380b7b536==",
+                      "_parent": {
+                        "$ref": "0a3dc5df9bff47d890348c=="
+                      },
+                      "name": "valor_str",
+                      "type": "str",
+                      "direction": "in"
+                    },
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "6bdc7dcb6e88426db07c4f==",
+                      "_parent": {
+                        "$ref": "0a3dc5df9bff47d890348c=="
+                      },
+                      "type": "tuple[bool, str]",
+                      "direction": "return"
+                    }
+                  ]
+                },
+                {
+                  "_type": "UMLOperation",
+                  "_id": "4c86a6b121ca4a099e602d==",
+                  "_parent": {
+                    "$ref": "96ea077d774046d6887b64=="
+                  },
+                  "name": "calcular_pendiente",
+                  "visibility": "public",
+                  "isStatic": true,
+                  "parameters": [
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "6a0a72f18f6e4d72ba4b2d==",
+                      "_parent": {
+                        "$ref": "4c86a6b121ca4a099e602d=="
+                      },
+                      "name": "x1_str",
+                      "type": "str",
+                      "direction": "in"
+                    },
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "2416527576964bce9e82d0==",
+                      "_parent": {
+                        "$ref": "4c86a6b121ca4a099e602d=="
+                      },
+                      "name": "y1_str",
+                      "type": "str",
+                      "direction": "in"
+                    },
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "3be62db748814b81889124==",
+                      "_parent": {
+                        "$ref": "4c86a6b121ca4a099e602d=="
+                      },
+                      "name": "x2_str",
+                      "type": "str",
+                      "direction": "in"
+                    },
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "7f62d8ae6a594d7994ca06==",
+                      "_parent": {
+                        "$ref": "4c86a6b121ca4a099e602d=="
+                      },
+                      "name": "y2_str",
+                      "type": "str",
+                      "direction": "in"
+                    },
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "0486ba4c18b84cfba24a5c==",
+                      "_parent": {
+                        "$ref": "4c86a6b121ca4a099e602d=="
+                      },
+                      "type": "tuple[bool, str]",
+                      "direction": "return"
+                    }
+                  ]
+                },
+                {
+                  "_type": "UMLOperation",
+                  "_id": "2af6da19f54f4f4faf5c79==",
+                  "_parent": {
+                    "$ref": "96ea077d774046d6887b64=="
+                  },
+                  "name": "calcular_punto_medio",
+                  "visibility": "public",
+                  "isStatic": true,
+                  "parameters": [
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "c9dc7761c2514158b0575a==",
+                      "_parent": {
+                        "$ref": "2af6da19f54f4f4faf5c79=="
+                      },
+                      "name": "x1_str",
+                      "type": "str",
+                      "direction": "in"
+                    },
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "5225259642c249528314dd==",
+                      "_parent": {
+                        "$ref": "2af6da19f54f4f4faf5c79=="
+                      },
+                      "name": "y1_str",
+                      "type": "str",
+                      "direction": "in"
+                    },
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "a90335e311b042e0a07b43==",
+                      "_parent": {
+                        "$ref": "2af6da19f54f4f4faf5c79=="
+                      },
+                      "name": "x2_str",
+                      "type": "str",
+                      "direction": "in"
+                    },
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "34e9eafd97454cd6a6ce53==",
+                      "_parent": {
+                        "$ref": "2af6da19f54f4f4faf5c79=="
+                      },
+                      "name": "y2_str",
+                      "type": "str",
+                      "direction": "in"
+                    },
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "a5289debe8584ec4a73435==",
+                      "_parent": {
+                        "$ref": "2af6da19f54f4f4faf5c79=="
+                      },
+                      "type": "tuple[bool, str]",
+                      "direction": "return"
+                    }
+                  ]
+                },
+                {
+                  "_type": "UMLOperation",
+                  "_id": "9828ceab12e1436fb6fd62==",
+                  "_parent": {
+                    "$ref": "96ea077d774046d6887b64=="
+                  },
+                  "name": "calcular_raices_cuadraticas",
+                  "visibility": "public",
+                  "isStatic": true,
+                  "parameters": [
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "bd9840d0b1b94087a0036e==",
+                      "_parent": {
+                        "$ref": "9828ceab12e1436fb6fd62=="
+                      },
+                      "name": "a_str",
+                      "type": "str",
+                      "direction": "in"
+                    },
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "ab520c710892475886e61d==",
+                      "_parent": {
+                        "$ref": "9828ceab12e1436fb6fd62=="
+                      },
+                      "name": "b_str",
+                      "type": "str",
+                      "direction": "in"
+                    },
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "819e96505516479bba32f8==",
+                      "_parent": {
+                        "$ref": "9828ceab12e1436fb6fd62=="
+                      },
+                      "name": "c_str",
+                      "type": "str",
+                      "direction": "in"
+                    },
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "b85c04e6ed644083900883==",
+                      "_parent": {
+                        "$ref": "9828ceab12e1436fb6fd62=="
+                      },
+                      "type": "tuple[bool, str]",
+                      "direction": "return"
+                    }
+                  ]
+                },
+                {
+                  "_type": "UMLOperation",
+                  "_id": "ab85351331ef4a3784b919==",
+                  "_parent": {
+                    "$ref": "96ea077d774046d6887b64=="
+                  },
+                  "name": "convertir_base",
+                  "visibility": "public",
+                  "isStatic": true,
+                  "parameters": [
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "b31eec1a6c904fd89da879==",
+                      "_parent": {
+                        "$ref": "ab85351331ef4a3784b919=="
+                      },
+                      "name": "numero_str",
+                      "type": "str",
+                      "direction": "in"
+                    },
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "7b61c1c603684448a7d4bb==",
+                      "_parent": {
+                        "$ref": "ab85351331ef4a3784b919=="
+                      },
+                      "name": "base_str",
+                      "type": "str",
+                      "direction": "in"
+                    },
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "2735152f40384872bcf0b0==",
+                      "_parent": {
+                        "$ref": "ab85351331ef4a3784b919=="
+                      },
+                      "type": "tuple[bool, str]",
+                      "direction": "return"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "5d2a22bcf5b7442cb5c2b6==",
+          "_parent": {
+            "$ref": "392225a2395c478b9cc220=="
+          },
+          "name": "Diagrama de clases",
+          "defaultDiagram": true,
+          "ownedViews": [
+            {
+              "_type": "UMLPackageView",
+              "_id": "5822e9d3cc704e828c4d39==",
+              "_parent": {
+                "$ref": "5d2a22bcf5b7442cb5c2b6=="
+              },
+              "model": {
+                "$ref": "d245a6b5d6694cdca9f11f=="
+              },
+              "visible": true,
+              "left": 80,
+              "top": 40,
+              "width": 460,
+              "height": 213,
+              "containerChangeable": true,
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "79c426e371fd43a59518f2==",
+                  "visible": true,
+                  "width": 120,
+                  "height": 25,
+                  "subViews": [
+                    {
+                      "_type": "LabelView",
+                      "_id": "ba06482445614bf0befd1b==",
+                      "visible": true,
+                      "text": "Excepciones",
+                      "height": 13
+                    }
+                  ],
+                  "_parent": {
+                    "$ref": "5822e9d3cc704e828c4d39=="
+                  },
+                  "model": {
+                    "$ref": "d245a6b5d6694cdca9f11f=="
+                  }
+                }
+              ],
+              "containedViews": [
+                {
+                  "_type": "UMLClassView",
+                  "_id": "841f205d2abe43f48cf7ba==",
+                  "_parent": {
+                    "$ref": "5822e9d3cc704e828c4d39=="
+                  },
+                  "model": {
+                    "$ref": "96ea077d774046d6887b64=="
+                  },
+                  "visible": true,
+                  "left": 120,
+                  "top": 90,
+                  "width": 380,
+                  "height": 123,
+                  "subViews": [
+                    {
+                      "_type": "UMLNameCompartmentView",
+                      "_id": "4d82f6feeb4c40ccb06401==",
+                      "_parent": {
+                        "$ref": "841f205d2abe43f48cf7ba=="
+                      },
+                      "model": {
+                        "$ref": "96ea077d774046d6887b64=="
+                      },
+                      "visible": true,
+                      "width": 380,
+                      "height": 25,
+                      "subViews": [
+                        {
+                          "_type": "LabelView",
+                          "_id": "96e61414eeb345408595fe==",
+                          "visible": true,
+                          "text": "",
+                          "height": 13,
+                          "_parent": {
+                            "$ref": "4d82f6feeb4c40ccb06401=="
+                          }
+                        },
+                        {
+                          "_type": "LabelView",
+                          "_id": "9778f93aaa594f248dfe5c==",
+                          "visible": true,
+                          "text": "CalculosNumericos",
+                          "height": 13,
+                          "_parent": {
+                            "$ref": "4d82f6feeb4c40ccb06401=="
+                          }
+                        },
+                        {
+                          "_type": "LabelView",
+                          "_id": "97b9ee9ff87c440d910c36==",
+                          "visible": true,
+                          "text": "",
+                          "height": 13,
+                          "_parent": {
+                            "$ref": "4d82f6feeb4c40ccb06401=="
+                          }
+                        },
+                        {
+                          "_type": "LabelView",
+                          "_id": "eaf801c04c9149aaadf6a2==",
+                          "visible": false,
+                          "text": "",
+                          "height": 13,
+                          "_parent": {
+                            "$ref": "4d82f6feeb4c40ccb06401=="
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "_type": "UMLAttributeCompartmentView",
+                      "_id": "aad31a9d3db44481a1d9fe==",
+                      "_parent": {
+                        "$ref": "841f205d2abe43f48cf7ba=="
+                      },
+                      "model": {
+                        "$ref": "96ea077d774046d6887b64=="
+                      },
+                      "visible": true,
+                      "left": 0,
+                      "top": 0,
+                      "width": 0,
+                      "height": 10
+                    },
+                    {
+                      "_type": "UMLOperationCompartmentView",
+                      "_id": "95a4a1b47ba745cf8cc4a8==",
+                      "_parent": {
+                        "$ref": "841f205d2abe43f48cf7ba=="
+                      },
+                      "model": {
+                        "$ref": "96ea077d774046d6887b64=="
+                      },
+                      "visible": true,
+                      "left": 0,
+                      "top": 0,
+                      "width": 0,
+                      "height": 88
+                    },
+                    {
+                      "_type": "UMLReceptionCompartmentView",
+                      "_id": "e56fcc4744954154a2d00c==",
+                      "_parent": {
+                        "$ref": "841f205d2abe43f48cf7ba=="
+                      },
+                      "model": {
+                        "$ref": "96ea077d774046d6887b64=="
+                      },
+                      "visible": false,
+                      "left": 0,
+                      "top": 0,
+                      "width": 0,
+                      "height": 10
+                    },
+                    {
+                      "_type": "UMLTemplateParameterCompartmentView",
+                      "_id": "2de8a8bc71db4e978d2aa7==",
+                      "_parent": {
+                        "$ref": "841f205d2abe43f48cf7ba=="
+                      },
+                      "model": {
+                        "$ref": "96ea077d774046d6887b64=="
+                      },
+                      "visible": false,
+                      "left": 0,
+                      "top": 0,
+                      "width": 0,
+                      "height": 10
+                    }
+                  ],
+                  "showCompartmentVisibility": true,
+                  "showOperationSignature": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

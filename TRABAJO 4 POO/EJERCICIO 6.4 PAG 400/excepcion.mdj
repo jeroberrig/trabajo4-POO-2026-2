@@ -1,0 +1,274 @@
+{
+  "_type": "Project",
+  "_id": "AAAAAAFF+h6SjaM2Hec=",
+  "name": "DiagramaExcepcionesPython",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "AAAAAAFF+qBWK6M3Z8Y=",
+      "_parent": {
+        "$ref": "AAAAAAFF+h6SjaM2Hec="
+      },
+      "name": "Model",
+      "ownedElements": [
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "AAAAAAGE_Diag001=",
+          "_parent": {
+            "$ref": "AAAAAAFF+qBWK6M3Z8Y="
+          },
+          "name": "Diagrama de Clases",
+          "defaultDiagram": true,
+          "ownedViews": [
+            {
+              "_type": "UMLPackageView",
+              "_id": "AAAAAAGE_PkgView01=",
+              "_parent": {
+                "$ref": "AAAAAAGE_Diag001="
+              },
+              "model": {
+                "$ref": "AAAAAAGE_Pkg001="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "AAAAAAGE_PkgName01=",
+                  "_parent": {
+                    "$ref": "AAAAAAGE_PkgView01="
+                  },
+                  "model": {
+                    "$ref": "AAAAAAGE_Pkg001="
+                  },
+                  "left": 40,
+                  "top": 55,
+                  "width": 440,
+                  "height": 25
+                }
+              ],
+              "containedViews": [
+                {
+                  "$ref": "AAAAAAGE_ClsView01="
+                }
+              ],
+              "left": 40,
+              "top": 40,
+              "width": 440,
+              "height": 450
+            },
+            {
+              "_type": "UMLClassView",
+              "_id": "AAAAAAGE_ClsView01=",
+              "_parent": {
+                "$ref": "AAAAAAGE_Diag001="
+              },
+              "containerView": {
+                "$ref": "AAAAAAGE_PkgView01="
+              },
+              "model": {
+                "$ref": "AAAAAAGE_Cls001="
+              },
+              "subViews": [
+                {
+                  "_type": "UMLNameCompartmentView",
+                  "_id": "AAAAAAGE_ClsName01=",
+                  "_parent": {
+                    "$ref": "AAAAAAGE_ClsView01="
+                  },
+                  "model": {
+                    "$ref": "AAAAAAGE_Cls001="
+                  },
+                  "left": 70,
+                  "top": 100,
+                  "width": 380,
+                  "height": 25
+                },
+                {
+                  "_type": "UMLAttributeCompartmentView",
+                  "_id": "AAAAAAGE_ClsAttr01=",
+                  "_parent": {
+                    "$ref": "AAAAAAGE_ClsView01="
+                  },
+                  "model": {
+                    "$ref": "AAAAAAGE_Cls001="
+                  },
+                  "left": 70,
+                  "top": 125,
+                  "width": 380,
+                  "height": 210
+                },
+                {
+                  "_type": "UMLOperationCompartmentView",
+                  "_id": "AAAAAAGE_ClsOper01=",
+                  "_parent": {
+                    "$ref": "AAAAAAGE_ClsView01="
+                  },
+                  "model": {
+                    "$ref": "AAAAAAGE_Cls001="
+                  },
+                  "left": 70,
+                  "top": 335,
+                  "width": 380,
+                  "height": 115
+                }
+              ],
+              "left": 70,
+              "top": 100,
+              "width": 380,
+              "height": 350
+            }
+          ]
+        },
+        {
+          "_type": "UMLPackage",
+          "_id": "AAAAAAGE_Pkg001=",
+          "_parent": {
+            "$ref": "AAAAAAFF+qBWK6M3Z8Y="
+          },
+          "name": "Excepciones",
+          "ownedElements": [
+            {
+              "_type": "UMLClass",
+              "_id": "AAAAAAGE_Cls001=",
+              "_parent": {
+                "$ref": "AAAAAAGE_Pkg001="
+              },
+              "name": "PruebaExcepciones",
+              "attributes": [
+                {
+                  "_type": "UMLAttribute",
+                  "_id": "AAAAAAGE_Attr01=",
+                  "_parent": { "$ref": "AAAAAAGE_Cls001=" },
+                  "name": "ventana",
+                  "visibility": "private",
+                  "type": "Tk"
+                },
+                {
+                  "_type": "UMLAttribute",
+                  "_id": "AAAAAAGE_Attr02=",
+                  "_parent": { "$ref": "AAAAAAGE_Cls001=" },
+                  "name": "entry_dividendo",
+                  "visibility": "private",
+                  "type": "Entry"
+                },
+                {
+                  "_type": "UMLAttribute",
+                  "_id": "AAAAAAGE_Attr03=",
+                  "_parent": { "$ref": "AAAAAAGE_Cls001=" },
+                  "name": "entry_divisor",
+                  "visibility": "private",
+                  "type": "Entry"
+                },
+                {
+                  "_type": "UMLAttribute",
+                  "_id": "AAAAAAGE_Attr04=",
+                  "_parent": { "$ref": "AAAAAAGE_Cls001=" },
+                  "name": "btn_ejecutar",
+                  "visibility": "private",
+                  "type": "Button"
+                },
+                {
+                  "_type": "UMLAttribute",
+                  "_id": "AAAAAAGE_Attr05=",
+                  "_parent": { "$ref": "AAAAAAGE_Cls001=" },
+                  "name": "txt_log",
+                  "visibility": "private",
+                  "type": "ScrolledText"
+                },
+                {
+                  "_type": "UMLAttribute",
+                  "_id": "AAAAAAGE_Attr06=",
+                  "_parent": { "$ref": "AAAAAAGE_Cls001=" },
+                  "name": "dividendo",
+                  "visibility": "private",
+                  "type": "float"
+                },
+                {
+                  "_type": "UMLAttribute",
+                  "_id": "AAAAAAGE_Attr07=",
+                  "_parent": { "$ref": "AAAAAAGE_Cls001=" },
+                  "name": "divisor",
+                  "visibility": "private",
+                  "type": "float"
+                },
+                {
+                  "_type": "UMLAttribute",
+                  "_id": "AAAAAAGE_Attr08=",
+                  "_parent": { "$ref": "AAAAAAGE_Cls001=" },
+                  "name": "cociente",
+                  "visibility": "private",
+                  "type": "float"
+                },
+                {
+                  "_type": "UMLAttribute",
+                  "_id": "AAAAAAGE_Attr09=",
+                  "_parent": { "$ref": "AAAAAAGE_Cls001=" },
+                  "name": "objeto",
+                  "visibility": "private",
+                  "type": "None"
+                }
+              ],
+              "operations": [
+                {
+                  "_type": "UMLOperation",
+                  "_id": "AAAAAAGE_Oper01=",
+                  "_parent": { "$ref": "AAAAAAGE_Cls001=" },
+                  "name": "iniciar_interfaz",
+                  "visibility": "public",
+                  "parameters": [
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "AAAAAAGE_Param01=",
+                      "_parent": { "$ref": "AAAAAAGE_Oper01=" },
+                      "direction": "return",
+                      "type": "void"
+                    }
+                  ]
+                },
+                {
+                  "_type": "UMLOperation",
+                  "_id": "AAAAAAGE_Oper02=",
+                  "_parent": { "$ref": "AAAAAAGE_Cls001=" },
+                  "name": "ejecutar_caso_de_uso",
+                  "visibility": "public",
+                  "parameters": [
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "AAAAAAGE_Param02=",
+                      "_parent": { "$ref": "AAAAAAGE_Oper02=" },
+                      "direction": "return",
+                      "type": "void"
+                    }
+                  ]
+                },
+                {
+                  "_type": "UMLOperation",
+                  "_id": "AAAAAAGE_Oper03=",
+                  "_parent": { "$ref": "AAAAAAGE_Cls001=" },
+                  "name": "main",
+                  "visibility": "public",
+                  "isStatic": true,
+                  "parameters": [
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "AAAAAAGE_Param03=",
+                      "_parent": { "$ref": "AAAAAAGE_Oper03=" },
+                      "name": "args",
+                      "type": "list"
+                    },
+                    {
+                      "_type": "UMLParameter",
+                      "_id": "AAAAAAGE_Param04=",
+                      "_parent": { "$ref": "AAAAAAGE_Oper03=" },
+                      "direction": "return",
+                      "type": "void"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
